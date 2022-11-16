@@ -10,6 +10,16 @@ parallelize, Just-In-Time compile to GPU/TPU, and more.
    Please see `Distributed arrays and automatic parallelization <https://jax.readthedocs.io/en/latest/notebooks/Distributed_arrays_and_automatic_parallelization.html>`_ tutorial and the :ref:`jax-array-migration`
    guide for more information.
 
+
+User Specific Guides
+====================
+| :ref:`beginner_guide`
+| :ref:`advanced_guide`
+| :ref:`contributor_guide`
+
+
+Reference Links
+===============
 .. toctree::
    :maxdepth: 1
    :caption: Getting Started
@@ -18,16 +28,6 @@ parallelize, Just-In-Time compile to GPU/TPU, and more.
    notebooks/quickstart
    notebooks/thinking_in_jax
    notebooks/Common_Gotchas_in_JAX
-
-.. toctree::
-   :maxdepth: 1
-
-   jax-101/index
-
-.. toctree::
-   :maxdepth: 2
-
-   debugging/index
 
 .. toctree::
    :maxdepth: 1
@@ -45,33 +45,6 @@ parallelize, Just-In-Time compile to GPU/TPU, and more.
    transfer_guard
    glossary
    changelog
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Advanced JAX Tutorials
-
-   notebooks/autodiff_cookbook
-   multi_process
-   notebooks/Distributed_arrays_and_automatic_parallelization
-   notebooks/vmapped_log_probs
-   notebooks/neural_network_with_tfds_data
-   notebooks/Custom_derivative_rules_for_Python_code
-   notebooks/How_JAX_primitives_work
-   notebooks/Writing_custom_interpreters_in_Jax
-   notebooks/Neural_Network_and_Data_Loading
-   notebooks/xmap_tutorial
-   notebooks/external_callbacks
-
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Developer documentation
-
-   contributing
-   developer
-   jax_internal_api
-   autodidax
-   jep/index
 
 .. toctree::
    :maxdepth: 1
